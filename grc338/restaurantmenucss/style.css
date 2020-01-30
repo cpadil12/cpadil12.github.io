@@ -24,6 +24,7 @@ h1 /* "Koberl at Blue */ {
     text-transform: uppercase; 
     margin: auto;
     font-size: 3em;
+    text-align: center;
 }
 
 
@@ -32,6 +33,7 @@ h2 /* "Main Menu */ {
     margin: 0; 
     font-size: 1.3em;
     text-transform: uppercase;
+    text-align: center;
 }
 
 ul{ 
