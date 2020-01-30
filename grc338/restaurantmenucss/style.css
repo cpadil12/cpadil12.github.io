@@ -29,9 +29,8 @@ h1 /* "Koberl at Blue */ {
 
 
 h2 /* "Main Menu */ { 
-    color: #B5621B;
-    margin: 0; 
-    font-size: 1.3em;
+    margin-bottom: 1em;
+    color: #B5621B; 
     text-transform: uppercase;
     text-align: center;
 }
