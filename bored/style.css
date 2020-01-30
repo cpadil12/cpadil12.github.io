@@ -1,15 +1,9 @@
-/* CSS DOCUMENT */ 
-/* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
-*/
-
 html {
-    background: #E8E8E8;
+    background: #c5cbe1;
 }
 
 body {
-    background: #E8E8E8;
+    background: #c5cbe1;
     color: #545454;
     margin: 1.5em; 
     padding: 2em 4em 4em;
@@ -17,13 +11,32 @@ body {
     line-height: 1; 
 }
 
-
+h1{ 
+    color: white; 
+    text-transform: lowercase;
+    text-align: center; 
+    font-family: "Courier New";
+    
 }
 
-img {
-    max-width:50%;
-    
-    height:auto;
+h2{ 
+    color: white; 
+    text-transform: lowercase; 
+    text-align: center; 
+    font-size: 1em;
+    font-family: "Courier New";
+}
+
+.signature{ 
+    padding: .5em;
+    }
+img.images {
+    display: block;
+    margin-left: auto; 
+    margin-right: auto;
+    max-width:100%; 
+    height: auto;
+
 
 }
 
