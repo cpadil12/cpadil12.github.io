@@ -1,0 +1,31 @@
+/* CSS DOCUMENT */ 
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html {
+    background: #E8E8E8;
+}
+
+body {
+    background: #E8E8E8;
+    color: #545454;
+    margin: 1.5em; 
+    padding: 2em 4em 4em;
+    font-family: sans-serif;
+    line-height: 1; 
+}
+
+
+}
+
+img {
+    max-width:50%;
+    
+    height:auto;
+
+}
+
+
+
