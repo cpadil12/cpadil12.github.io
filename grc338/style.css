@@ -1,0 +1,77 @@
+/* CSS DOCUMENT */ 
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html {
+    background: #ECECED;
+}
+
+body {
+    background: #ECECED;
+    color: #545454;
+    margin: 1.5em; 
+    padding: 2em 4em 4em;
+    font-family: sans-serif;
+    line-height: 1; 
+}
+
+h1 /* "Koberl at Blue */ { 
+    color: #245D68; 
+    margin-top: 0.25em;
+    margin-bottom: 0.25em;
+    text-transform: uppercase; 
+    margin: auto;
+    font-size: 3em;
+    text-align: center;
+}
+
+
+h2 /* "Main Menu */ { 
+    color: #B5621B;
+    margin: 0; 
+    font-size: 1.3em;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+ul{ 
+    border: .1em solid;
+    margin: -;
+    padding: 0; 
+    list-style-type: none;
+    border-style: 2em solid #000; 
+    border-color: #245D68; 
+    
+}
+
+.foodtype{ 
+    color: #FFF;
+    background-color: #245D68;
+    text-align: center;
+    padding: 1em;
+    text-transform: uppercase;
+}
+
+.food{ 
+    text-align:center;
+}
+
+.description{ 
+    padding: 0; 
+    margin-left: 2em;
+    margin-right: 2em;  
+    text-align: center;
+    font-style: italic; 
+    font-family: serif; 
+    line-height: normal;
+}
+
+.price{ 
+    text-align: center; 
+    font-family: serif;
+}
+
+
+
