@@ -1,17 +1,13 @@
 /*CSS DOCUMENT*/
-
-html{ 
-    background-color: #F4D9BF;
     
 }
 
-body{ 
-    background-color: #FFF; 
-    margin: 2em; 
+body{  
+    margin: 0em; 
 }
 
 img {
-    width: 50%;
+    width: 97%;
     display: block;
     margin-left: auto; 
     margin-right: auto; 
@@ -19,44 +15,77 @@ img {
 
 h1{
     text-transform: uppercase; 
-    font-family: sans-serif; 
+    font-family: sans-serif;
+}
+
+.container header{ 
+    padding: 1em;
+}
+
+.intro{
+    background-color: rgb(242,195,167, .7);  
+    padding: 1em;
 }
 
 h2{ 
-    /*text-transform: uppercase; */
+    text-transform:lowercase;
     font-family: sans-serif; 
     font-weight: normal; 
+    
 }
 
 .container{ 
-    margin: 1em;
-    background-color: #FFF
+    margin: 1em;  
 }
+
+.container h{ 
+    margin: 2em;
+ }
 
 .maincontent{ 
     font-family: sans-serif;
 }
+
 .intro p{ 
-    margin-left: 5em; 
-    margin-right: 3em; 
-    margin-top: 2em;
+    padding-left: 5em; 
+    padding-right: 5em; 
     font-family: sans-serif;
+    text-align: center;
 }
 
 .ingredients{ 
     margin-left: 7em;
-    margin-right: 3em; 
     margin-bottom: 2em;
     float: left; 
-    width: 30%; 
+    width: 30%;
+}
+
+.ingredients h3{ 
+    padding-left: 1em;
+}
+
+.ingredients ul{  
+    border-top: .25em solid #F2C3A7;
+    border-right: .25em solid #F2C3A7;
+    padding: 1em 3em 6em 3.5em;
 }
 
 .directions{
-    margin-right: 3em; 
     margin-bottom: 2em;
     float: left; 
     width: 50%;
+    
 }
+
+.directions h3{ 
+    padding-left: 1em;
+}
+
+.directions ol{ 
+    border-top: .25em solid #F2C3A7;
+    padding: 1em 3em 0em 3.5em;
+}
+
 
 footer{ 
     float: none; 
