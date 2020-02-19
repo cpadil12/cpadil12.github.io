@@ -1,4 +1,28 @@
-/* CSS Document */ 
-img {
+/* CSS document */ 
+
+img{ 
     width: 100%; 
+}
+
+a{ 
+    text-decoration: none; 
+}
+
+/* .mainmenu a{ 
+    color: 
+} */
+
+.mainmenu ul{ 
+    list-style-type: none; 
+    padding: 0;
+}
+
+.mainmenu li{ 
+    float: left; 
+    margin-right: 3em;
+   
+}
+
+.header, .maincontent { 
+    clear: both; 
 }
