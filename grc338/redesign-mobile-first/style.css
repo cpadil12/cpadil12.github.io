@@ -1,46 +1,79 @@
 /* CSS document */ 
 
+html{ 
+    font-family: sans-serif;
+    margin: 2em; 
+}
+
 img{ 
     width: 100%; 
 }
 
-a{ 
-    text-decoration: none; 
-    text-transform: uppercase;
-    font-family: sans-serif; 
-    font-weight: bold;
-    color: #55C3C4;
-}
-
-/*.mainmenu a{ 
-    text-transform: uppercase;
-    font-family: sans-serif; 
-    font-weight: bold;
-    color: #55C3C4;
-} */
-
 h1{ 
-    margin: 0;}
+    margin: 0;
+    color: #FF0101; 
+    text-align: center;
+}
 
 ul{ 
     list-style-type: none; 
     padding: 0;}
 
+.maincontent { 
+    border-top: solid 1px; 
+    border-color: black; 
+}
+
+/*mainmenu content*/ 
+
+.mainmenu a{ 
+    text-decoration: none; 
+    text-transform: uppercase;
+    font-family: sans-serif; 
+    font-weight: bold;
+    color: #55C3C4;
+} 
+
 .mainmenu ul{ 
-    margin: 0; 
+    margin-left: 1.5em;
 }
 
 .mainmenu li{ 
     float: left; 
-    margin-right: 2em;
+    margin-right: 1em;
     padding: 1em;
 }
 
+/*index.html*/
+.container{ 
+    position: relative; 
+}
 
+.location-block{ 
+    position: absolute; 
+    bottom: 19.25em; 
+    right: 1em; 
+    background-color: rgb(85, 195, 196, 0.8);
+    padding-left: 1em; 
+    padding-right: 1em;
+}
 
-
-
+.location-block a{ 
+    text-decoration: none;
+    font-family: sans-serif;
+    color: white; 
+}
 
 .header, .maincontent { 
     clear: both; 
 }
+
+/*location.html*/
+.locations img{ 
+    width: 80%;
+}
+
+.locations ul{ 
+    padding-bottom: 1em;
+}
+
