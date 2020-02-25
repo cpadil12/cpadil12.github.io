@@ -2,7 +2,6 @@
 
 html{ 
     font-family: Helvetica; 
-    margin: 2em; 
 }
 
 img{ 
@@ -10,24 +9,20 @@ img{
     display: block; 
 }
 
-.header img{ 
+h3, p, li{ 
+    font-size: 1.5em;
+}
+
+
+
+
+.header img{ /* sylvesters logo */
     width: 60%; 
     display: block; 
 }
 
-.brand { 
-    float: left; 
-    width: 60%; 
-    padding-top: .8em;
-    line-height: 1em; 
-}
-
 ul{ 
     list-style-type: none; 
-    padding: 0;}
-
-.maincontent { 
-    border-color: red; 
 }
 
 .header, .maincontent, .mainmenu { 
@@ -47,17 +42,20 @@ ul{
     text-transform: uppercase;
     font-family: sans-serif; 
     font-weight: bold;
-    color: #000;
+    color: 	#202020;
 } 
 
 .mainmenu ul{ 
-    border-bottom: solid 2px black; 
+    /*border-bottom: solid 2px black; */
+    padding-left: 2em;
+    margin: 0; 
 }
 
 .mainmenu li{ 
     float: left; 
     margin-right: 1em;
     padding: 1em;
+    font-size: 1.5em;
 }
 
 /*index.html*/
@@ -81,8 +79,8 @@ ul{
 
 /*location.html*/
 
-.locations ul{ 
-    padding-bottom: 1em;
+.location{ 
+    padding-top: 1em;
 }
 
 .maincontent h4{ 
@@ -92,6 +90,10 @@ ul{
 
 .maincontent ul{ 
     line-height: 1em;
+}
+
+.hours{ 
+    font-weight: bold; 
 }
 
 /*menu.html*/ 
@@ -114,8 +116,7 @@ ul{
     color: #FFFF; 
 }
 
-.image{ 
-    width: 95%; 
+.image{
     display: block; 
     margin-left: auto; 
     margin-right: auto;
@@ -139,10 +140,5 @@ ul{
     float: left;
     width: 45%;
     padding-left: 1em; 
-}
-
-.locations{ 
-    margin-top: 2em;
-    margin-left: 1em;
-    
+    padding-bottom: 5em;
 }
