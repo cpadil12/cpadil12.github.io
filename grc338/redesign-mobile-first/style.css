@@ -11,7 +11,7 @@ img{
 }
 
 .header img{ 
-    float: left; 
+    width: 60%; 
     display: block; 
 }
 
@@ -22,12 +22,6 @@ img{
     line-height: 1em; 
 }
 
-h1{ 
-    margin: 0;
-    color: #FF0101; 
-    text-align: center;
-}
-
 ul{ 
     list-style-type: none; 
     padding: 0;}
@@ -36,27 +30,34 @@ ul{
     border-color: red; 
 }
 
+.header, .maincontent, .mainmenu { 
+    clear: both; 
+}
+
 /*mainmenu content*/ 
+
+.mainmenu{ 
+    display: flex; 
+    justify-content: center; 
+    width: 100; 
+}
 
 .mainmenu a{ 
     text-decoration: none; 
     text-transform: uppercase;
     font-family: sans-serif; 
     font-weight: bold;
-    color: #55C3C4;
+    color: #000;
 } 
 
 .mainmenu ul{ 
-    text-align: center; 
-    display: inline-block;
     border-bottom: solid 2px black; 
-    }
+}
 
 .mainmenu li{ 
     float: left; 
     margin-right: 1em;
     padding: 1em;
-    display: inline-block;
 }
 
 /*index.html*/
@@ -79,10 +80,6 @@ ul{
     color: white; 
 }
 
-.header, .maincontent, .mainmenu { 
-    clear: both; 
-}
-
 /*location.html*/
 .locations img{ 
     width: 80%;
@@ -92,3 +89,22 @@ ul{
     padding-bottom: 1em;
 }
 
+.maincontent h4{ 
+    color: #55C3C4; 
+    text-transform: uppercase;
+}
+
+.maincontent ul{ 
+    line-height: 1em;
+}
+
+/*menu.html*/ 
+.burgers, .range, .sandwiches, .garden, .other{ 
+    border: double;
+    padding: 1em;
+    margin: 1em;
+}
+.price{ 
+    color: black; 
+    font-family: sans-serif;
+    font-style: normal;}
