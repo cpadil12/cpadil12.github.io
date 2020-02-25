@@ -13,6 +13,20 @@ h3, li{
     font-size: 1.5em;
 }
 
+.maincontent h1{ 
+    text-transform: uppercase; 
+    font-weight: normal; 
+    font-size: 5em;
+    padding: 1em;
+    margin: 0; 
+    text-align: center; 
+    line-height: 1.5em;
+    background-color: #E20C04;
+    color: #FFF; 
+}
+
+.bold{ 
+    font-weight: bold; }
 
 
 
@@ -126,13 +140,17 @@ ul{
 }
 
 .locimage{ 
-    width: 45%; 
+    width: 60%; 
     float: left;
 }
 
 .details{ 
     float: left;
-    width: 45%;
+    width: 36%;
     padding-left: 1em; 
     padding-bottom: 5em;
+}
+
+.details ul{ 
+    padding: 0;
 }
