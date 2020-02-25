@@ -61,9 +61,6 @@ ul{
 }
 
 /*index.html*/
-.container{ 
-    position: relative; 
-}
 
 .location-block{ 
     position: absolute; 
@@ -74,16 +71,15 @@ ul{
     padding-right: 1em;
 }
 
-.location-block a{ 
+.container a{ 
+    background-color: #55C3C4;
+    padding: 1em;
     text-decoration: none;
     font-family: sans-serif;
     color: white; 
 }
 
 /*location.html*/
-.locations img{ 
-    width: 80%;
-}
 
 .locations ul{ 
     padding-bottom: 1em;
@@ -101,10 +97,52 @@ ul{
 /*menu.html*/ 
 .burgers, .range, .sandwiches, .garden, .other{ 
     border: double;
-    padding: 1em;
+    padding-left: 1em; 
+    padding-right: 1em;
     margin: 1em;
 }
 .price{ 
     color: black; 
     font-family: sans-serif;
-    font-style: normal;}
+    font-weight: normal; 
+}
+.maincontent h3{
+    text-transform: uppercase;
+    text-align: center; 
+    background-color: #55C3C4;
+    padding: .25em;
+    color: #FFFF; 
+}
+
+.image{ 
+    width: 95%; 
+    display: block; 
+    margin-left: auto; 
+    margin-right: auto;
+}
+
+/*contest.html*/
+
+.details h3{ 
+    text-transform: uppercase;
+    text-align: center; 
+    background-color: #55C3C4;
+    color: #FFFF; 
+}
+
+.locimage{ 
+    width: 45%; 
+    float: left;
+}
+
+.details{ 
+    float: left;
+    width: 45%;
+    padding-left: 1em; 
+}
+
+.locations{ 
+    margin-top: 2em;
+    margin-left: 1em;
+    
+}
