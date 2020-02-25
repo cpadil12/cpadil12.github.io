@@ -9,9 +9,12 @@ img{
     display: block; 
 }
 
-h3, li{ 
+li{ 
     font-size: 1.5em;
 }
+
+h3{ 
+    font-size: 2em;}
 
 .maincontent h1{ 
     text-transform: uppercase; 
@@ -28,11 +31,9 @@ h3, li{
 .bold{ 
     font-weight: bold; }
 
-
-
 .header img{ /* sylvesters logo */
     width: 60%; 
-    display: block; 
+    margin-left: 1em;
 }
 
 ul{ 
@@ -104,7 +105,9 @@ ul{
 .hours{ 
     font-weight: bold; 
 }
+
 /*menu.html*/ 
+
 .burgers, .range, .sandwiches, .garden, .other{ 
     border: solid;
     padding-left: 1em; 
@@ -120,9 +123,19 @@ ul{
     text-transform: uppercase;
     text-align: center; 
     background-color: #55C3C4;
-    padding: .25em;
+    padding: 1em;
     color: #FFFF; 
+    
 }
+
+.maincontent p{ 
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+}
+.dressing{
+    text-align: center; 
+}
+
 
 .image{
     display: block; 
@@ -139,16 +152,29 @@ ul{
     color: #FFFF; 
 }
 
+.location h3{ 
+    padding: .25em;
+    margin-top: 0;
+    margin-bottom: 0; 
+    }
+
+.location p{ 
+    padding: 0; 
+    line-height: .9em;
+}
+
 .locimage{ 
-    width: 60%; 
+    width: 45%; 
     float: left;
+    padding-right: 1em;
+    padding-bottom: 10em;
 }
 
 .details{ 
     float: left;
-    width: 36%;
-    padding-left: 1em; 
-    padding-bottom: 5em;
+    width: 45%;
+    padding-bottom: 15em;
+    margin-top: 0; 
 }
 
 .details ul{ 
