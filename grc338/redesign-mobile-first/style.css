@@ -51,9 +51,9 @@ ul{
 
 .location-block{ 
     position: absolute; 
-    bottom: 50em; 
-    right: 1em; 
-    background-color: rgb(85, 195, 196, 0.8);
+    bottom: 60em; 
+    right: 3em; 
+    background-color: rgb(250, 217, 78);
     padding-left: 1em; 
     padding-right: 1em;
 }
