@@ -2,6 +2,7 @@
 
 html{ 
     font-family: Helvetica; 
+    background-color: #FAE29C;
 }
 
 img{ 
@@ -29,7 +30,8 @@ h3{
 }
 
 .bold{ 
-    font-weight: bold; }
+    font-weight: bold; 
+}
 
 .header img{ /* sylvesters logo */
     width: 60%; 
@@ -61,8 +63,6 @@ ul{
 } 
 
 .mainmenu ul{ 
-    /*border-bottom: solid 2px black; */
-    padding-left: 2em;
     margin: 0; 
 }
 
@@ -106,45 +106,6 @@ ul{
     font-weight: bold; 
 }
 
-/*menu.html*/ 
-
-.burgers, .range, .sandwiches, .garden, .other{ 
-    border: solid;
-    padding-left: 1em; 
-    padding-right: 1em;
-    margin: 1em;
-}
-.price{ 
-    color: black; 
-    font-family: sans-serif;
-    font-weight: normal; 
-}
-.maincontent h3{
-    text-transform: uppercase;
-    text-align: center; 
-    background-color: #55C3C4;
-    padding: 1em;
-    color: #FFFF; 
-    
-}
-
-.maincontent p{ 
-    padding-left: 1.5em;
-    padding-right: 1.5em;
-}
-.dressing{
-    text-align: center; 
-}
-
-
-.image{
-    display: block; 
-    margin-left: auto; 
-    margin-right: auto;
-}
-
-/*contest.html*/
-
 .details h3{ 
     text-transform: uppercase;
     text-align: center; 
@@ -180,3 +141,51 @@ ul{
 .details ul{ 
     padding: 0;
 }
+
+/*menu.html*/ 
+
+.burgers, .range, .sandwiches, .garden, .other{ 
+    border: solid;
+    padding-left: 1em; 
+    padding-right: 1em;
+    margin: 1em;
+}
+.price{ 
+    color: black; 
+    font-family: sans-serif;
+    font-weight: normal; 
+}
+.maincontent h3{
+    text-transform: uppercase;
+    text-align: center; 
+    background-color: #55C3C4;
+    padding: 1em;
+    color: #FFFF; 
+}
+
+.dressing{
+    text-align: center; 
+}
+
+.maincontent p{ 
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+    font-size: 1.5em; 
+}
+
+
+.image{
+    display: block; 
+    margin-left: auto; 
+    margin-right: auto;
+}
+
+/*contest.html*/
+.indent{ 
+    padding-left: 1em; 
+    padding-right: 1em; 
+}
+
+
+
+
