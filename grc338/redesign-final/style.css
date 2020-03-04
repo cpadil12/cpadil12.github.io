@@ -8,16 +8,12 @@ body {
     color: #FFFFFF; 
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4{
     font-family: 'Montserrat', sans-serif;
 }
 
 img{ 
     width: 100%; 
-}
-
-.bold{ 
-    font-weight: bold; 
 }
 
 ul{ 
@@ -50,7 +46,7 @@ h3 span{ /* used in menu, locations */
 
 .maincontent h3{
     text-transform: uppercase;
-    text-align: center;
+    text-align: left;
     font-size: 1.3em; 
 }
 
@@ -63,18 +59,11 @@ h3 span{ /* used in menu, locations */
 .content p{ 
     margin: auto; 
     max-width: 35em; 
+    
 }
 
-.content li, .content p{ 
-    display: flex; 
-    justify-content: center; 
-}
-
-.content li{ 
-    float: left; 
-    padding: 1em;
-    margin: 1em; 
-    background-color: #E20C04;
+.content h3{ 
+    text-transform: uppercase; 
 }
 
 .content h3{ 
@@ -83,12 +72,10 @@ h3 span{ /* used in menu, locations */
 }
 
 .maincontent p, .content p{ 
-    padding: 0; 
-    padding-left: 1.5em;
-    padding-right: 1.5em;
+    padding: 0;
     padding-top: 1em; 
-    margin: 0 auto; 
-    max-width: 35em; 
+    max-width: 35em;
+    margin: 0 auto;
 }
 
 /*mainmenu content*/ 
@@ -120,8 +107,8 @@ h3 span{ /* used in menu, locations */
 
 .mainmenu li{ 
     float: left; 
-    margin-right: 1em;
-    padding: 1em;
+    margin-right: 2em;
+    padding: 1em 2em 1em 2em;
     color: #FFFFFF;
     transition: 0.5s; 
     font-weight: bold;
@@ -170,6 +157,19 @@ h3 span{ /* used in menu, locations */
     
 }
 
+.buttons{ 
+    max-width: 30em; 
+    clear: both;
+    margin: 4em auto; 
+}
+
+.buttons li{ 
+    display: inline; 
+    padding: 1em;
+    margin: 1em; 
+    background-color: #E20C04;
+}
+
 /*location.html*/
 .icon{ 
     width: 5%; 
@@ -181,9 +181,10 @@ h3 span{ /* used in menu, locations */
 
 .location{ 
     padding-top: 2em;
-    margin-top: 0; 
+    margin-top: 0em; 
     max-width: 45em; 
 }
+
 
 .location h3{ 
     padding: .25em;
@@ -193,8 +194,19 @@ h3 span{ /* used in menu, locations */
 
 .location ul{ 
     color: #FFFFFF;
-    padding: 0; 
-    text-align: center;
+    padding: 1em; 
+    padding: 0;
+    padding-left: 1em; 
+}
+
+.location p{ 
+    padding-top: .5em; 
+}
+
+.location p, .location ul{ 
+    text-align: left; 
+    margin-top: 0em;
+    width: 100; 
 }
     
 /*menu.html*/ 
@@ -202,6 +214,9 @@ h3 span{ /* used in menu, locations */
 .foodsection{ 
     max-width: 45em;
 }
+
+.foodsection ul{ 
+    padding-left: 1em; }
 
 .price{ 
     font-family: 'Work Sans', sans-serif;
@@ -212,25 +227,28 @@ h3 span{ /* used in menu, locations */
     margin-bottom: 2em; 
 }
 
+.foodsection p{ 
+    padding-top: .25em; }
 .center{
     text-align: center; 
 }
 
+.underline{ 
+    font-weight: 1000; 
+    text-decoration: underline;
+    padding-top: 0em; 
+}
+
 /*contest.html*/
-.redbackground{ 
+.highlight{ 
     background-color: #E20C04;
     padding: .5em 1em .5em 1em;
     margin-top: 1em;
     margin-bottom: 1em; 
 }
 
-.redbackground h2{ 
-    text-align: center; 
-    
-}
-
-.maincontent h3{ 
-    font-size: 1.3em; 
+.highlight h2{ 
+    text-align: center;    
 }
 
 .challenge img{ 
@@ -272,16 +290,11 @@ footer h3{
 
 @media only screen and (min-width: 25em){ 
     .mainmenu li { 
-        width: 30%;
+        width: 25%;
     }
     .maincontent p{ 
         width: 80%}
 }
-
-@media only screen and (min-width: 40em){ 
-    .mainmenu li{ 
-        width: auto; 
-    }
 
 @media only screen and (min-width: 50em){ 
     .foodsection, .location{ 
@@ -295,6 +308,9 @@ footer h3{
         clear: both; 
     }
     
+    .mainmenu li{ 
+        width: auto; 
+    }
 }
 
 @media only screen and (min-width: 75em){ 
@@ -303,12 +319,3 @@ footer h3{
     }
 
 }
-
-
-
-
-
-
-
-
-
