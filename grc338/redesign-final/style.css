@@ -14,19 +14,6 @@ h1, h2, h3, h4, h5, h6 {
 
 img{ 
     width: 100%; 
-    /*display: block; */ 
-}
-
-.maincontent h1{ 
-    text-transform: uppercase; 
-    padding: 1em;
-    margin: 0;
-    margin-bottom: 1em; 
-    margin-top: 1em; 
-    text-align: center; 
-    line-height: 1.5em;
-    background-color: #E20C04; 
-    
 }
 
 .bold{ 
@@ -37,8 +24,12 @@ ul{
     list-style-type: none; 
 }
 
-.header, .maincontent, .mainmenu, footer { 
+.header, .maincontent, .mainmenu, .redbackground, footer, hr, h3{ 
     clear: both; 
+}
+
+hr{ 
+    margin-top: 4em;   
 }
 
 a{ 
@@ -54,10 +45,57 @@ h3 span{ /* used in menu, locations */
     border-color: #E20C04;
     color: #E20C04; 
     font-size: 1.3em;
-    margin-bottom: 2em;
+    margin-bottom: 2em; 
+}
+
+.maincontent h3{
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 1.3em; 
+}
+
+.maincontent h4{ 
+    padding: 0; 
+    margin-bottom: 0;
+    clear: both; 
+}
+
+.content p{ 
+    margin: auto; 
+    max-width: 35em; 
+}
+
+.content li, .content p{ 
+    display: flex; 
+    justify-content: center; 
+}
+
+.content li{ 
+    float: left; 
+    padding: 1em;
+    margin: 1em; 
+    background-color: #E20C04;
+}
+
+.content h3{ 
+    text-align: center; 
+    padding-bottom: 1em; 
+}
+
+.maincontent p, .content p{ 
+    padding: 0; 
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+    padding-top: 1em; 
+    margin: 0 auto; 
+    max-width: 35em; 
 }
 
 /*mainmenu content*/ 
+
+.mainmenu li{ 
+    width: 100%; 
+}
 
 .mainmenu{ 
     display: flex; 
@@ -87,6 +125,7 @@ h3 span{ /* used in menu, locations */
     color: #FFFFFF;
     transition: 0.5s; 
     font-weight: bold;
+    width: auto; 
 }
 
 .mainmenu a:hover{
@@ -96,7 +135,7 @@ h3 span{ /* used in menu, locations */
     transition: 0.5s;
 }
 
-.current a:hover{ 
+.current a:hover, .maincontent a:hover{ 
     color: #000000; 
     text-decoration: underline; 
     font-size: 1.09em;
@@ -107,26 +146,43 @@ h3 span{ /* used in menu, locations */
     background-color: #E20C04;
 }
 
-
 /*index.html*/
+.container { 
+    width: 100%; 
+    margin: 0 auto; 
+}
+
+.container img{ 
+    vertical-align: middle;
+    width: 65%; 
+    margin: auto; 
+    float: left; 
+    padding-left: 1em; 
+    padding-bottom: 1em; 
+}
+.container h1{ 
+    float: left; 
+    width: 30%; 
+    text-transform: uppercase; 
+    margin: 0;
+    text-align: center; 
+    background-color: #E20C04; 
+    
+}
 
 /*location.html*/
 .icon{ 
     width: 5%; 
     vertical-align: middle; 
-    padding-left: 1.5em;
     padding-right:.5em; 
     padding-top: 1em; 
     padding-bottom: 1em; 
 }
 
 .location{ 
-    padding-top: 1em;
-}
-
-.details h3{ 
-    text-transform: uppercase;
-    text-align: center; 
+    padding-top: 2em;
+    margin-top: 0; 
+    max-width: 45em; 
 }
 
 .location h3{ 
@@ -135,20 +191,17 @@ h3 span{ /* used in menu, locations */
     margin-bottom: 0; 
 }
 
-.details{ 
-    margin-top: 0; 
-    color: #FFFFFF; 
-}
-
-.details ul{ 
-    padding: 0;
-}
-
-.details h4{ 
-    margin-left: 1.5em; 
+.location ul{ 
+    color: #FFFFFF;
+    padding: 0; 
+    text-align: center;
 }
     
 /*menu.html*/ 
+
+.foodsection{ 
+    max-width: 45em;
+}
 
 .price{ 
     font-family: 'Work Sans', sans-serif;
@@ -159,50 +212,41 @@ h3 span{ /* used in menu, locations */
     margin-bottom: 2em; 
 }
 
-.maincontent{ 
-    max-width: 80em; 
-    margin: auto; 
-}
-
-.foodsection{ 
-    max-width: 30em;
-}
-
-.maincontent p{ 
-    padding: 0; 
-    margin: 0; 
-    padding-left: 1.5em;
-    padding-right: 1.5em;
-}
-
-.maincontent h3{
-    text-transform: uppercase;
-    text-align: center;
-}
-
-.maincontent h4{ 
-    padding: 0; 
-    margin-bottom: 0; 
-}
-
 .center{
     text-align: center; 
 }
 
-.image{
-    display: block; 
-    margin-left: auto; 
-    margin-right: auto;
-}
-
 /*contest.html*/
-.indent{ 
-    padding-left: 1em; 
-    padding-right: 1em; 
+.redbackground{ 
+    background-color: #E20C04;
+    padding: .5em 1em .5em 1em;
+    margin-top: 1em;
+    margin-bottom: 1em; 
 }
 
+.redbackground h2{ 
+    text-align: center; 
+    
+}
+
+.maincontent h3{ 
+    font-size: 1.3em; 
+}
+
+.challenge img{ 
+    width: 20%; 
+    margin: .5em; 
+}
+
+ol, .formatted ul{ 
+    justify-content: center; 
+    margin: auto; 
+    max-width: 35em; 
+    padding-top: 1em; 
+}
+
+/*footer*/
 footer{ 
-    padding-top: 2em; 
     text-align: center; 
 }
 
@@ -212,7 +256,7 @@ footer a{
     padding-bottom: 1em;
 }
 
-footer a:hover{ 
+footer a:hover, .yelp a:hover{ 
     color: #E20C04; 
 }
 
@@ -226,26 +270,42 @@ footer h3{
     padding: .5em; 
 }
 
+@media only screen and (min-width: 25em){ 
+    .mainmenu li { 
+        width: 30%;
+    }
+    .maincontent p{ 
+        width: 80%}
+}
+
+@media only screen and (min-width: 40em){ 
+    .mainmenu li{ 
+        width: auto; 
+    }
+
 @media only screen and (min-width: 50em){ 
-    .foodsection{ 
+    .foodsection, .location{ 
         width: 45%; 
         float: left; 
         margin-right: 1em; 
         margin-left: 1em; 
     }
     
-    .location{ 
-        }
     .foodsection:after{
         clear: both; 
     }
+    
 }
 
 @media only screen and (min-width: 75em){ 
-    .foodsection{ 
+    .foodsection, .location{ 
         width: 30%; 
     }
+
 }
+
+
+
 
 
 
