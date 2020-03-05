@@ -12,6 +12,9 @@ h1, h2, h3, h4{
     font-family: 'Montserrat', sans-serif;
 }
 
+h1, h2, h3, h4, p, ul, ol{ 
+    margin-left: 1em; }
+
 img{ 
     width: 100%; 
 }
@@ -44,10 +47,19 @@ h3 span{ /* used in menu, locations */
     margin-bottom: 2em; 
 }
 
+.maincontent h2{ /* used in contest */ 
+    width: 45%; 
+    margin: auto; 
+    margin-top: 1em;
+    margin-bottom: 1em; 
+    line-height: 1.5em; 
+}
+
 .maincontent h3{
     text-transform: uppercase;
     text-align: left;
     font-size: 1.3em; 
+    margin-left: 1em; 
 }
 
 .maincontent h4{ 
@@ -58,8 +70,7 @@ h3 span{ /* used in menu, locations */
 
 .content p{ 
     margin: auto; 
-    max-width: 35em; 
-    
+    text-align: justify;
 }
 
 .content h3{ 
@@ -75,14 +86,9 @@ h3 span{ /* used in menu, locations */
     padding: 0;
     padding-top: 1em; 
     max-width: 35em;
-    margin: 0 auto;
 }
 
 /*mainmenu content*/ 
-
-.mainmenu li{ 
-    width: 100%; 
-}
 
 .mainmenu{ 
     display: flex; 
@@ -110,9 +116,8 @@ h3 span{ /* used in menu, locations */
     margin-right: 2em;
     padding: 1em 2em 1em 2em;
     color: #FFFFFF;
-    transition: 0.5s; 
     font-weight: bold;
-    width: auto; 
+    transition: 0.5s; 
 }
 
 .mainmenu a:hover{
@@ -170,6 +175,14 @@ h3 span{ /* used in menu, locations */
     background-color: #E20C04;
 }
 
+.buttons a:hover{ 
+    color: #000000; 
+    text-decoration: underline; 
+    font-size: 1.09em;
+    transition: 0.5s;
+}
+
+
 /*location.html*/
 .icon{ 
     width: 5%; 
@@ -190,6 +203,7 @@ h3 span{ /* used in menu, locations */
     padding: .25em;
     margin-top: 0;
     margin-bottom: 0; 
+    
 }
 
 .location ul{ 
@@ -228,21 +242,18 @@ h3 span{ /* used in menu, locations */
 }
 
 .foodsection p{ 
-    padding-top: .25em; }
+    padding-top: .25em; 
+    padding-left: 0em auto; 
+    ; 
+}
 .center{
     text-align: center; 
-}
-
-.underline{ 
-    font-weight: 1000; 
-    text-decoration: underline;
-    padding-top: 0em; 
 }
 
 /*contest.html*/
 .highlight{ 
     background-color: #E20C04;
-    padding: .5em 1em .5em 1em;
+    padding: 1em;
     margin-top: 1em;
     margin-bottom: 1em; 
 }
@@ -256,9 +267,19 @@ h3 span{ /* used in menu, locations */
     margin: .5em; 
 }
 
+.underline{ 
+    font-weight: 1000; 
+    padding-top: 0em; 
+    margin-bottom: 1em; 
+    
+}
+
+.underline span{
+    border-color: #FFFFFF; 
+    color: #FFFFFF;  
+    }
+
 ol, .formatted ul{ 
-    justify-content: center; 
-    margin: auto; 
     max-width: 35em; 
     padding-top: 1em; 
 }
@@ -288,12 +309,24 @@ footer h3{
     padding: .5em; 
 }
 
-@media only screen and (min-width: 25em){ 
-    .mainmenu li { 
-        width: 25%;
+
+@media only screen and (max-width: 50em){ 
+    .mainmenu li{
+        width: 25%; 
+        transition: 0s;
+        }
+    
+    .mainmenu a:hover{
+        font-size: 1em;
     }
+
     .maincontent p{ 
-        width: 80%}
+        width: 80%;
+    }
+    
+    .content p{ 
+        width: 80%;
+    }
 }
 
 @media only screen and (min-width: 50em){ 
@@ -315,7 +348,7 @@ footer h3{
 
 @media only screen and (min-width: 75em){ 
     .foodsection, .location{ 
-        width: 30%; 
+        width: 31%; 
     }
 
 }
