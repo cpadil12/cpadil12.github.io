@@ -20,12 +20,12 @@ header {
 }
 
 article {
-    flex: 2 0 30em;
+    flex: 2 0 40em;
     margin-right: 1em;
 }
 
 aside {
-    flex: 1 0 15em;
+    flex: 1 0 20em;
 }
 
 footer {
