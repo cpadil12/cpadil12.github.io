@@ -1,6 +1,8 @@
 /*CSS document*/
 
-body {
+html, body {
+    padding: 0; 
+    margin: 0; 
   
 }
 
@@ -38,7 +40,7 @@ nav{
 
 nav li{ 
     float: left; 
-    margin-right: 2em; 
+    margin-right: 1em; 
     text-transform: uppercase;
     font-weight: bold; 
 }
