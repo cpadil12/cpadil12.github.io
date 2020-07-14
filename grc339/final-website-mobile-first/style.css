@@ -28,7 +28,8 @@ header img {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    padding-top: 1em; 
+    padding: .5em 0 .5em 0; 
+    
 }
    
 ul {
@@ -41,11 +42,12 @@ nav{
     justify-content: center; 
     background-color: #de7073;
     width: 100; 
+    padding: .5em; 
 }
 
 nav li{  
     text-transform: uppercase; 
-    padding: 1em;
+    padding: .5em;
     text-align: center; 
 }
 
