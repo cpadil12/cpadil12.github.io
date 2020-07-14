@@ -1,48 +1,148 @@
-<!DOCTYPE HTML>
-<html> 
-    <head>
-        <meta name="viewport" content="width=device‑width, initial‑scale=1"> 
-        <link rel="stylesheet" type="text/css" href="style.css">
-        <title> Sylvester's Burgers </title>
-    </head>
-    
-    <body> 
-        
-        <div class="header">
-                
-            <a href="index.html">
-                <img src="images/sylvesterslogo.png" alt= "Sylvester's Burger Logo">
-            </a>
+<!doctype html>
+    <html>
+        <head>
+            <meta charset="UTF-8" />
+            <meta name="viewport" content="width=device-width, initial-scale=1" />
+            <link rel="stylesheet" type="text/css" href="style.css">
+            <link href='https://fonts.googleapis.com/css?family=Lora' rel='stylesheet'>
+            <link href='https://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet'>
             
-        </div> <!--header--> 
+            <title>Euflorish - All Things Beauty</title> 
+
+            <!-- Helpful meta tags to fight GitHub aggresive caching-->
+                <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+                <meta http-equiv="Pragma" content="no-cache" />
+                <meta http-equiv="Expires" content="0" />
             
-        <div class="mainmenu"> 
-            
-            <ul> 
-                
-                <li><a href="menu.html">Menu</a></li>
-                <li><a href="location.html">Locations</a></li>
-                <li><a href="contest.html">The Big One</a></li>
-                
-            </ul>
-        <hr>
-            
-        </div> <!--mainmenu-->
-        
-        <hr>
-        
-        <div class="maincontent"> 
-            
-            <div class="container"> 
-                <img src="images/burger.jpg" alt="A burger on a table with red onions, sweet roasted vegetables, a beef patty, and a rich sunny-side-up egg on top.">
-                
+        </head>	
+
+        <body>
+            <div class="container">
+                <header>
+                    <h1> <img src="images/logo.png" alt="Logo of Euflourish."> </h1> <!-- Euflourish Logo in blush-colored font-->
                     
-                <h4><a href="location.html">Find a Location</a></h4>
-            
-            </div> <!--container-->
-            
-        </div> <!--maincontent-->
-            
-    </body>
-    
-</html>
+                    <nav>
+                        <ul> <!-- ★ Use as many sections as you want, but replace the dashed lines with actual names for the sections of the publication. You may keep them all linked to the pound symbol, though. -->
+                            <li><a href="#">Skin</a></li>
+                            <li><a href="#">Body</a></li>
+                            <li><a href="#">Makeup</a></li>
+                            <li><a href="#">Hair</a></li>
+                        </ul>
+                    </nav>
+                </header>
+                <main>
+                    <section class="image"><!-- ★ Teaser for the main story. You may want to give it a class.-->
+                        <a href="mainstory.html">
+                            <figure class="article">
+                                <img src="images/black-owned-brands.jpg" alt="Five Black women of varying skintones wearing nude-toned tanktops.">
+                            </figure>
+                        
+                                <h3>Black-owned Beauty Brands That Need To Be On Your Radar</h3>
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                                </p>
+                        </a>    
+                    </section>
+                    
+                    <section class="image"> <!-- ★ Example of a teaser with image.  You may want to give it a different class. -->
+                        <a href="#">
+                            <figure class="article">
+                                <img src="images/pride-2020.jpeg" alt="A 3-image grid. From left to right: A woman with cloud-resembling rainbow-colored shapes going from her eye to her chin; a woman with rainbow stripes going down vertically along both eyes; a woman wearing very bright rainbow eyeshadow on.">
+                            </figure>
+                                <h3>Incredible Pride-Themed Looks</h3>
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                                </p>
+                        </a>    
+                    </section>
+
+                    <section class="image"> 
+                        <a href="#">
+                            <figure class="article">
+                                <img src="images/aging-skincare.jpeg" alt="A middle-aged White woman with youthful looking skin applying moisturizer.">
+                            </figure>
+                                <h3>Best Moisturizers for Aging Skin</h3>
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                                </p>
+                        </a>    
+                    </section>
+                    
+                    <section class="image"> <!-- ★ Example of a teaser with image.  You may want to give it a different class. -->
+                        <a href="#">
+                            <figure class="article">
+                                <img src="images/mask-makeup.jpeg" alt="A 4-image grid. From left to right: A woman wearing a black mask with dark eyeshadow; a woman wearing a white mask with pink, sultry eyeshadow; a woman wearing a white mask with bright pink eyeliner; a woman wearing a patterned mask with pink eyeshadow, black eyeliner, and graphic eyebrows.">
+                            </figure>
+                                <h3>Makeup Looks to Wear With Your Face Mask</h3>
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                                </p>
+                        </a>    
+                    </section>
+                    
+                    <section class="textonly"> 
+                        <a href="#">
+                                <h3>Do's and Dont's: TikTok Skincare Videos</h3>
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                                </p>
+                        </a>    
+                    </section>
+                    
+                    <section class="textonly">  
+                        <a href="#">
+                            <h3>DIY Acrylic Nails During Quarantine</h3>
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                                </p>
+                        </a>    
+                    </section>
+                    
+                    <section class="textonly"> 
+                        <a href="#">
+                                <h3>Sunscreens That Work on Dark Skin Tones</h3>
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                                </p>
+                        </a>    
+                    </section>
+                    
+                    <section class="textonly"> 
+                        <a href="#">
+                                <h3>15 Black-Owned Brands that Have Won <span>Allure</span> Best of Beauty Awards</h3>
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                                </p>
+                        </a>    
+                    </section>
+                    
+                    <section class="textonly"> 
+                        <a href="#">
+                                <h3>Best of Korean Skincare</h3>
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                                </p>
+                        </a>    
+                    </section>
+                    
+                    <section class="textonly">  
+                        <a href="#">
+                                <h3>What Does Quarantine Do To Your Skin? </h3>
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                                </p>
+                        </a>    
+                    </section>
+                    
+                    <!-- ★ You will need to replicate the sections above to have 8 to 12 stories in your page, with at least 4 of them with images. -->
+
+                </main>
+
+                <footer>
+                    <p> All rights reserved.</p>
+                </footer>
+            </div>
+        </body>
+    </html>
+
+

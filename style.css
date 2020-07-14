@@ -1,139 +1,113 @@
-/* CSS document */ 
+/*CSS document*/
 
-html{ 
-    font-family: Helvetica; 
-    margin: 2em; 
+html, body {
+    padding: 0; 
+    margin: 0; 
+    background-color: #FFF8F5; 
+}
+
+body{ 
+    font-family: 'Lora'; 
+} 
+
+div.container {
+    max-width: 40em;
+    margin: auto;
+}
+
+figure {
+    margin: 0; 
 }
 
 img{ 
     width: 100%; 
-    display: block; 
 }
 
-.header img{ /* sylvesters logo */
-    width: 60%; 
-    display: block; 
+header img {
+    width: 70%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: .5em 0 .5em 0; 
+    
+}
+   
+ul {
+    list-style-type: none;
+    padding: 0; 
 }
 
-ul{ 
-    list-style-type: none; 
-    padding: 0;
-}
-
-.header, .maincontent, .mainmenu { 
-    clear: both; 
-}
-
-/*mainmenu content*/ 
-
-.mainmenu{ 
+nav{ 
     display: flex; 
     justify-content: center; 
+    background-color: #de7073;
     width: 100; 
+    padding: .5em; 
 }
 
-.mainmenu a{ 
+nav li{  
+    text-transform: uppercase; 
+    padding: .5em;
+    text-align: center; 
+}
+
+nav a{ 
+    font-family: 'Open Sans'; 
+    font-weight: 600;
+    color: #FFF; 
+}
+
+nav ul{ 
+    margin: 0;
+}
+
+a{ 
+    color: #000000; 
     text-decoration: none; 
+}
+
+h2, h3 { 
+    color: #101010; 
+    font-family: 'Open Sans'; 
+    font-weight: 800;
     text-transform: uppercase;
-    font-family: sans-serif; 
-    font-weight: bold;
-    color: #000;
-    font-size: 1.5em;
+    padding: 0 1em 0 1em; /* right and left padding */ 
+}
+
+p{ 
+    font-family: 'Lora';
+    font-weight: 100;
+    color: #303030; 
+    padding: 0 1.5em 0 1.5em; /* right and left padding */ 
+}
+
+section{ 
+    background-color: #DDC9BE;
+    margin: 2em 1.5em 2em 1.5em;
+    
 } 
 
-.mainmenu ul{ 
-    border-bottom: solid 2px black; 
+section.image { 
+    padding-bottom: 1em; 
 }
 
-.mainmenu li{ 
-    float: left; 
-    margin-right: 1em;
-    padding: 1em;
-}
-
-/*index.html*/
-
-.location-block{ 
-    position: absolute; 
-    bottom: 19.25em; 
-    right: 3em;
-    background-color: #55C3C4;
-    padding-left: 1em; 
-    padding-right: 1em;
-}
-
-.container a{ 
-    background-color: #55C3C4;
-    padding: 1em;
-    text-decoration: none;
-    font-family: sans-serif;
-    color: white; 
-}
-
-/*location.html*/
-
-.locations ul{ 
+section.textonly { 
+    padding-top: 1em; 
     padding-bottom: 1em;
 }
 
-.maincontent h4{ 
-    color: #55C3C4; 
-    text-transform: uppercase;
+figcaption { 
+    text-align: right; 
+    padding: .5em 1em .5em .5em; 
+    font-size: .8em; 
+    color: #A9A9A9; 
 }
 
-.maincontent ul{ 
-    line-height: 1em;
+article{ 
+    margin-top: 2em; 
+    margin-bottom: 5.5em; 
 }
 
-/*menu.html*/ 
-.burgers, .range, .sandwiches, .garden, .other{ 
-    border: double;
-    padding-left: 1em; 
-    padding-right: 1em;
-    margin: 1em;
-}
-.price{ 
-    color: black; 
-    font-family: sans-serif;
-    font-weight: normal; 
-}
-.maincontent h3{
-    text-transform: uppercase;
-    text-align: center; 
-    background-color: #55C3C4;
-    padding: .25em;
-    color: #FFFF; 
-}
-
-.image{ 
-    width: 95%; 
-    display: block; 
-    margin-left: auto; 
-    margin-right: auto;
-}
-
-/*contest.html*/
-
-.details h3{ 
-    text-transform: uppercase;
-    text-align: center; 
-    background-color: #55C3C4;
-    color: #FFFF; 
-}
-
-.locimage{ 
-    width: 45%; 
-    float: left;
-}
-
-.details{ 
-    float: left;
-    width: 45%;
-    padding-left: 1em; 
-}
-
-.locations{ 
-    margin-top: 2em;
-    margin-left: 1em;
-    
+figure.article{ 
+    margin: 3.25em 0 2.75em 0; 
 }
