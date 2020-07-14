@@ -3,20 +3,18 @@
 html, body {
     padding: 0; 
     margin: 0; 
-  
+    background-color: #FFF8F5; 
 }
 
+body{ 
+    }
 div.container {
     max-width: 40em;
     margin: auto;
 }
 
 figure {
-    margin: 0;
-}
-
-section { 
-    padding: 1em; 
+    margin: 0; 
 }
 
 img{ 
@@ -39,16 +37,16 @@ ul {
 nav{ 
     display: flex; 
     justify-content: center; 
-    background-color: #F7AF9D;
+    background-color: #de7073;
     width: 100; 
-    box-shadow: 1px 2px #D3D3D3; 
+/*    box-shadow: 1px 2px #D3D3D3; */
 }
 
 nav li{  
-    margin-right: 1em; 
-    text-transform: uppercase;
-    float: left; 
+    text-transform: uppercase; 
     padding: 1em;
+    text-align: center; 
+
 }
 
 nav a{ 
@@ -62,23 +60,46 @@ nav ul{
 }
 
 a{ 
+    color: #000000; 
     text-decoration: none; 
 }
 
-h3 { 
-    color: #065143; 
+h2, h3 { 
+    color: #101010; 
     font-family: 'Open Sans'; 
     font-weight: 800;
     text-transform: uppercase;
+    padding: 0 1em 0 1em; 
     
 }
 
 p{ 
-    color: #172c66; 
     font-family: 'Lora';
     font-weight: 100;
+    color: #303030; 
+    padding: 0 1.5em 0 1.5em; 
 }
 
-section.teaser{ 
-    margin-top: 1em; 
+section{ 
+    background-color: #DDC9BE;
+    margin: 2em 1.5em 2em 1.5em;
+    
+} 
+
+section.image { 
+    padding-bottom: 1em;
 }
+
+section.textonly{ 
+    padding-top: 1em; 
+    padding-bottom: 1em;
+}
+
+figcaption{ 
+    text-align: right; 
+    padding: .5em; 
+}
+
+article{ 
+    margin-top: 2em; }
+
