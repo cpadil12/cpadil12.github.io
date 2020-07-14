@@ -7,7 +7,9 @@ html, body {
 }
 
 body{ 
-    }
+    font-family: 'Lora'; 
+} 
+
 div.container {
     max-width: 40em;
     margin: auto;
@@ -39,14 +41,12 @@ nav{
     justify-content: center; 
     background-color: #de7073;
     width: 100; 
-/*    box-shadow: 1px 2px #D3D3D3; */
 }
 
 nav li{  
     text-transform: uppercase; 
     padding: 1em;
     text-align: center; 
-
 }
 
 nav a{ 
@@ -69,15 +69,14 @@ h2, h3 {
     font-family: 'Open Sans'; 
     font-weight: 800;
     text-transform: uppercase;
-    padding: 0 1em 0 1em; 
-    
+    padding: 0 1em 0 1em; /* right and left padding */ 
 }
 
 p{ 
     font-family: 'Lora';
     font-weight: 100;
     color: #303030; 
-    padding: 0 1.5em 0 1.5em; 
+    padding: 0 1.5em 0 1.5em; /* right and left padding */ 
 }
 
 section{ 
@@ -87,19 +86,25 @@ section{
 } 
 
 section.image { 
-    padding-bottom: 1em;
+    padding-bottom: 1em; 
 }
 
-section.textonly{ 
+section.textonly { 
     padding-top: 1em; 
     padding-bottom: 1em;
 }
 
-figcaption{ 
+figcaption { 
     text-align: right; 
-    padding: .5em; 
+    padding: .5em 1em .5em .5em; 
+    font-size: .8em; 
+    color: #A9A9A9; 
 }
 
 article{ 
-    margin-top: 2em; }
+    margin-top: 2em; 
+}
 
+figure.article{ 
+    margin: 3.25em 0 2.75em 0; 
+}
