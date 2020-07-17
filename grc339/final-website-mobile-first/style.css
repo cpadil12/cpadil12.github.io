@@ -119,7 +119,7 @@ figure.article{
 main.gallery{ 
     position: relative; 
     overflow: hidden; 
-    padding-bottom: calc(110% + 3em); 
+    padding-bottom: calc(117% + 3em); 
 }
 
 figure.gallery{ 
